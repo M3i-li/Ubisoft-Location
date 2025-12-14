@@ -1,93 +1,51 @@
-# UBSOFT Location
-
-
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.univ-lille.fr/mei-li.ung.etu/ubsoft-location.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.univ-lille.fr/mei-li.ung.etu/ubsoft-location/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+Voici le contenu du fichier `README.md` formaté en Markdown, sans emojis et sans la section de structure des fichiers, comme demandé.
 
 ***
 
-# Editing this README
+# Ubisoft Location
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+**Plateforme collaborative de location de mobilité douce pour les employés d'Ubisoft.**
 
-## Suggestions for a good README
+Ubisoft Location est une maquette de site web statique réalisée dans le cadre d'un projet universitaire (Université de Lille, 2024). L'objectif est de proposer une interface permettant aux employés d'Ubisoft de mettre en location ou d'emprunter des vélos et trottinettes entre collègues, favorisant ainsi la mobilité écoresponsable.
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+## Lien du site:
 
-## Name
-Choose a self-explaining name for your project.
+Le site est visitable sur mon github à l'adresse : https://m3i-li.github.io/Ubisoft-Location
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## Fonctionnalités
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+Le projet simule l'ensemble du parcours utilisateur pour la location de matériel :
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+* **Accueil Informatif** : Présentation du concept, des valeurs écoresponsables et du fonctionnement du service "donnant-donnant".
+* **Recherche d'annonces** :
+    * Distinction entre Location courte durée (1-3 jours) et Location longue durée (4 jours et plus).
+    * Interface de filtres : par type de véhicule (Vélo, électrique, trottinette), studio de rattachement (Paris, Gironde, etc.) et rayon kilométrique.
+* **Gestion de profil (Mes annonces)** :
+    * Tableau de bord listant les annonces de l'utilisateur.
+    * Affichage des statuts d'annonce : En ligne, En attente, Loué, Refusée.
+    * Possibilité de modifier ou supprimer une annonce existante.
+* **Dépôt d'annonce** : Formulaire complet demandant le type de véhicule, la durée, le studio de rattachement, une description et des photos.
+* **Gestion des statuts** : Simulation des pages de confirmation d'envoi et de suppression (avec mention de la conservation des données pendant 30 jours).
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Technologies Utilisées
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+* **HTML5** : Structure sémantique du site.
+* **CSS3** : Mise en page et stylisation (fichiers liés mais non inclus dans ce document).
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+## Auteurs
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+Ce projet a été conçu et développé par :
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+* **Florian Gavoille** (Chef de projet)
+* **Chloé Tison**
+* **Mei Li Ung**
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+*Université de Lille - 2024*
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+## Crédits et Mentions
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+* **Propriété intellectuelle** : Ce site est un projet étudiant à but non lucratif.
+* **Images et Marques** :
+    * Les logos et la marque appartiennent à Ubisoft Entertainment.
+    * Les images de véhicules utilisées à titre d'illustration proviennent de LeBonCoin.
+* **Contact** : Pour toute question fictive sur le projet, référez-vous au portail d'aide mentionné dans la page des mentions légales.
